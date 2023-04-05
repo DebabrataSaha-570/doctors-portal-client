@@ -10,7 +10,7 @@ const Banner = () => {
         backgroundSize: "cover",
       }}
     >
-      <div className="hero   min-h-[77vh]">
+      <div className="hero   min-h-[75vh]">
         <div className="hero-content  flex-col lg:flex-row-reverse">
           <img
             src={bannerImage}
