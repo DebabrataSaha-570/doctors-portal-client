@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const menuItems = (
     <React.Fragment>
-      <li>
+      <li className="hover:bg-accent hover:text-neutral rounded-lg focus:bg-accent focus:text-neutral ">
         <Link to="/">Home</Link>
       </li>
       <li>
@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-center hidden lg:flex navbar-end">
-          <ul className="menu menu-horizontal px-1">{menuItems}</ul>
+          <ul className="menu  menu-horizontal px-1">{menuItems}</ul>
         </div>
       </div>
     </div>
